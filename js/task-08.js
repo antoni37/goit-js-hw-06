@@ -16,5 +16,5 @@ function onFormSubmit(event) {
 
   console.log(formElements);
 
-  event.currentTarget.reset;
+  form.reset;
 }

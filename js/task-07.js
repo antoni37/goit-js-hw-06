@@ -4,6 +4,7 @@ const changeFontSize = (e) => {
   textEl.style.fontSize = `${e.currentTarget.value}px`;
 };
 
+textEl.style.fontSize=`${rangeEl.value}px`
 rangeEl.addEventListener("input", changeFontSize);
 
 // const textEl = document.querySelector("#text");
